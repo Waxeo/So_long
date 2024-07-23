@@ -9,14 +9,14 @@ DIRLIB	=	./Libft/
 FILELIB	=	libft.a
 NAMELFT	=	$(addprefix $(DIRLIB), $(FILELIB))
 
-FLAGMLX	=	-L minilibx-linux/ -lmlx -lX11 -lXext
+FLAGMLX	=	-L/usr/X11R6/lib -lmlx -lX11 -lXext
 DIRMLX	=	./minilibx-linux/
 MLXFILE	=	libmlx.a
 MLXEXE	= 	$(addprefix $(DIRMLX), $(MLXFILE)) $(FLAGMLX)
 
 SRC_DIR	=	src/
 OBJ_DIR =	obj/
-INCLUDE	=	-I./include -I./minilibx-linux -I./Libft/include
+INCLUDE	=	-I./include -I./minilibx-linux -I./Libft/include -I/opt/X11/include/X11 
 
 
 # Colors
