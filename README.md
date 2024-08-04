@@ -3,6 +3,9 @@
 ## SUJET
 
 Ce projet consiste à créer un petit jeu en 2d en C avec la minilibx (bibliotheque graphique de l'école 42)
+Jeu dans lequel le personnage doit récuperer tous les collectibles de la carte avant de rejoindre la sortie.
+Il y'a donc beaucoup de contraintes de sécurité a mettre en place (Chemin valide vers la sortie, fichier contenant la carte valide, ...)
+
 
 ## USE
 
